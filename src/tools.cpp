@@ -61,5 +61,5 @@ void get_arg(int argc, char ** argv, std::vector<std::string>& optf,  std::vecto
       i+=2; 
     }
   for(int i = 0; i< optl.size(); i++)
-    std::cout << optl[i] <<" : " << optv[i] << std::endl;
+    std::cerr << optl[i] <<" : " << optv[i] << std::endl;
 }

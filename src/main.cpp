@@ -98,6 +98,7 @@ void store_stream(lsl::stream_info strm_info, bool *rec_on, int n)
     double rate;
     
     std::cerr << "[" << strm_info.name() << "] Started." << std::endl;
+    std::cout.precision(17);
     while (*rec_on)
       {
 	chunk.clear();
